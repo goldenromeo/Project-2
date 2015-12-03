@@ -1,6 +1,6 @@
 html{ 
       background-color: 
-      #fafafa; 
+      #99CCFF; 
       font-family: Arial; 
       font-size: 13px; 
       position: relative; 
@@ -20,19 +20,17 @@ html{
       text-decoration: underline; 
       }
 
-     #login{ 
+      #login{ 
       color: #000; 
       background-color: #fff; 
       margin: 100px auto 0; 
       padding: 20px 20px 20px; 
       position: relative; 
-      width: 80%; 
+      width: 600px; 
       -webkit-border-radius: 8px; 
       -moz-border-radius: 8px; 
       border-radius: 8px; 
       }
-
-
 
 	h1{ 
       font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; 
