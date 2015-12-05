@@ -9,7 +9,11 @@
 
 
   * name the file index.php -done RT
-  * then have links to advisor or student from this page -on it RT
+  * then have links to advisor or student from this page 
+  
+	 -on it RT
+
+	  -functional but ugly
 
 # Administration
 1. The overall pages are ugly. You may add different colors.
