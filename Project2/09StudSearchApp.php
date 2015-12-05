@@ -1,15 +1,19 @@
 <?php
 session_start();
 $debug = false;
-include('../CommonMethods.php');
+include('CommonMethods.php');
 $COMMON = new Common($debug);
 ?>
 
 <html lang="en">
+
+<!-- Searches specific times for appointments. -->
+
+
   <head>
     <meta charset="UTF-8" />
     <title>Search for Appointment</title>
-<link rel='stylesheet' type='text/css' href='../css/standard.css'/> 
+    <link rel='stylesheet' type='text/css' href='css/standard.css'/>
   </head>
   <body>
     <div id="login">
