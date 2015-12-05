@@ -18,8 +18,7 @@ session_start();
 	<div class="nextButton">
 		<!--select apt-->
 		<input type="submit" name="type" class="button large go" value="Individual">
-		<input type="submit" name="type" class="button large go" value="Next Available" Style=";
-    width: 60%;">
+		<input type="submit" name="type" class="button large go" value="Next Available" >
 		<input type="submit" name="type" class="button large go" value="Group" >
 	    </div>
 		</div>
