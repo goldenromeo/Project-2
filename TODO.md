@@ -4,7 +4,7 @@
 
 2. The “work screen” (or where work shows up) is too skinny, make larger or replace so text takes up more space.
 
- ..1 Done
+ * Done
 
 # Administration
 1. The overall pages are ugly. You may add different colors.
