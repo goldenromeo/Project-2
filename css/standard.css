@@ -14,14 +14,18 @@ left:0;
 right:0;
 margin-left:auto;
 margin-right:auto;
+
 }
 
 
 .nextButton{
-margin-left: auto;
-    margin-right: auto;
-    width: 6em
+text-align: center;
 }
+
+#indexButton{
+text-align: center;
+}
+
 
       body{ 
       margin: 0; 

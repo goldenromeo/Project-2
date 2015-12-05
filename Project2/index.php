@@ -10,15 +10,19 @@
     <div id="login">
       <div id="form">
         <div class="top">
-        <form method="link" action="01StudSignIn.html">
-	<input type="submit" name="next" class="button large go" value="Sign in as a Student">
+
+
+<h2> Please select your loging type: </h2></br></br>
+
+        <form method="link" id="indexButton" action="01StudSignIn.html">
+	<input type="submit" name="next" class="button large go" value="Sign in as a Student" title="Student sign in page">
 	</form>
 	
 	<br />
 	<br />
 
-	<form method="link" action="AdminSignIn.html">
-	<input type="submit" name="next" class="button large go" value="Sign in as an Admin">
+	<form method="link" id="indexButton" action="AdminSignIn.html">
+	<input type="submit" name="next" class="button large go" value="Sign in as an Admin" title="Administrator sign in page">
 	</form>
           
         </div>
