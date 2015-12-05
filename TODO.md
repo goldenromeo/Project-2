@@ -4,10 +4,11 @@
 
 2. The “work screen” (or where work shows up) is too skinny, make larger or replace so text takes up more space.
 
- * Done
+ * Done RT
 
 # Administration
 1. The overall pages are ugly. You may add different colors.
+* Done RT
 
 2. All footers should be an inserted “include” so if a change needs to happen, all pages change.
 
