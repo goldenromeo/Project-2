@@ -117,6 +117,9 @@ $COMMON = new Common($debug);
       </div>
 	</div>
 	</form>
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>
