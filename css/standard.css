@@ -16,6 +16,13 @@ margin-left:auto;
 margin-right:auto;
 }
 
+
+.nextButton{
+margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
       body{ 
       margin: 0; 
       padding: 0; 
