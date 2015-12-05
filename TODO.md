@@ -3,7 +3,7 @@
 1. The advisors want two more data points added somewhere to the DB, where their respective offices are located, and where they will meet with their student. When a student signs up for an appointment, this data should also show.
 
 2. The “work screen” (or where work shows up) is too skinny, make larger or replace so text takes up more space.
-..* Done
+ ..1 Done
 
 # Administration
 1. The overall pages are ugly. You may add different colors.
