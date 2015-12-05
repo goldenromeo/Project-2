@@ -20,3 +20,11 @@
 
 3. The number of $_SESSION variables is way too high. Eliminate all but ‘userID’. If needed, some others can stay with negotiation. The rest can pull info from the DB when needed. This is a major code addition.
 
+##Project Specifications:
+
+1. As specified above, the application requires a MINIMUM of one(1) PHP/HTML page(s) for the users. The users requirements are also listed above. 
+2. You must have your material placed in the before mentioned directory
+3. All pages must use PHP and use the dataserver given to you by UMBC
+4. The application should be appealing and easy to use.
+5. Use appropriate HTML Components (drop down boxes, radio buttons, etc…) to have validation on the front end where possible.
+
