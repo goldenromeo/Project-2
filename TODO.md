@@ -8,7 +8,8 @@
 
 # Administration
 1. The overall pages are ugly. You may add different colors.
-* Done RT
+
+ * Done RT
 
 2. All footers should be an inserted “include” so if a change needs to happen, all pages change.
 
