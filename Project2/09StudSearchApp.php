@@ -1,7 +1,7 @@
 <?php
 session_start();
 $debug = false;
-include('CommonMethods.php');
+include('../CommonMethods.php');
 $COMMON = new Common($debug);
 ?>
 
@@ -13,8 +13,11 @@ $COMMON = new Common($debug);
   <head>
     <meta charset="UTF-8" />
     <title>Search for Appointment</title>
-    <link rel='stylesheet' type='text/css' href='css/standard.css'/>
+    <link rel='stylesheet' type='text/css' href='../css/standard.css'/>
   </head>
+
+
+
   <body>
     <div id="login">
       <div id="form">
@@ -68,8 +71,12 @@ $COMMON = new Common($debug);
 	    </div>
 		</div>
 		</form>
+
+  </body>
+</div>
+ </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>  </br> </br> </br> </br> </br> </br>  </br> </br> </br> </br>  </br> </br> </br> </br> </br> 
   <footer>
 	<?php include("footer.html"); ?>
   </footer>
-  </body>
+
 </html>
