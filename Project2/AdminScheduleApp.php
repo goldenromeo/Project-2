@@ -31,7 +31,9 @@ session_start();
    	</div>
 	</div>
 
-		
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>	
   </body>
   
 </html>
