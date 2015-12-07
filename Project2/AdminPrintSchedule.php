@@ -43,6 +43,8 @@ session_start();
 	</div>
 	</div>
 	<?php include('./workOrder/workButton.php'); ?>
-
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
 </html>
