@@ -131,6 +131,9 @@ session_start();
 	<?php include('./workOrder/workButton.php'); ?>
 
 	</div>
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>
