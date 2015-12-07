@@ -61,7 +61,9 @@ $debug = false;
 	</div>
 	<?php include('./workOrder/workButton.php'); ?>
 	</div>
-
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>
