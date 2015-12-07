@@ -88,7 +88,9 @@ session_start();
 		</form>
 	<?php include('./workOrder/workButton.php'); ?>
 
-
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>
