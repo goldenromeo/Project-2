@@ -75,7 +75,10 @@ session_start();
 				<input type="submit" name="home" class="button large go" value="Return to Home">
 			</form>
 		</div>
-    </div>    
+    </div> 
+    <footer>
+	<?php include("footer.html"); ?>
+  	</footer>   
 	</div>
 	<div class="bottom">
 		<?php
@@ -86,9 +89,7 @@ session_start();
 	</div>
 	</div>
 	</form>
-  <footer>
-	<?php include("footer.html"); ?>
-  </footer>
+  
   </body>
   
 </html>
