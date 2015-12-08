@@ -77,11 +77,12 @@ session_start();
 			<input type="submit" name="home" class="button large" value="Cancel">
 		</form>
 
-	</div>
-	</div>
-	</div>
-  <footer>
+	</div>  
+	<footer>
 	<?php include("footer.html"); ?>
   </footer>
+	</div>
+	</div>
+
   </body>
 </html>
