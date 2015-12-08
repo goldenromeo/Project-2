@@ -38,6 +38,7 @@ $studID = $_SESSION["studID"];
 					$row2 = mysql_fetch_row($rs2);
 					$advisorName = $row2[1] . " " . $row2[2];
 					$location = $row2[5];
+					$office = $row2[6];
 				}
 				//else AN is group
 				else{$advisorName = "Group";    //set advisor name to group
@@ -48,7 +49,8 @@ $studID = $_SESSION["studID"];
 				echo "<label for='info'>";
 				echo "Advisor: ", $advisorName, "<br>";
 				echo "Appointment: ", date('l, F d, Y g:i A', $datephp), "<br>";
-				echo "Location: ", $location, "</label>";
+				echo "Location: ", $location, "</br>";
+			echo "Office: ", $office, "</label>";
 			}
 			else // something is up, and there DB table needs to be fixed
 			{

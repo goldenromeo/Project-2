@@ -34,14 +34,21 @@ $COMMON = new Common($debug);
 				$sql2 = "select * from Proj2Advisors where `id` = '$oldAdvisorID'";
 				$rs2 = $COMMON->executeQuery($sql2, $_SERVER["SCRIPT_NAME"]);
 				$row2 = mysql_fetch_row($rs2);					
-				$oldAdvisorName = $row2[1] . " " . $row2[2];
+				$oldAdvisorName = $row2[1] . " " . $row2[2];				
+					$location = $row2[5];
+					$office = $row2[6];
+
 			}
-			else{$oldAdvisorName = "Group";}
+			else{$oldAdvisorName = "Group";
+			$location = "ITE 204";}	// set location for group
+
 			
 			echo "<h2>Current Appointment</h2>";
 			echo "<label for='info'>";
 			echo "Advisor: ", $oldAdvisorName, "<br>";
-			echo "Appointment: ", date('l, F d, Y g:i A', $oldDatephp), "</label><br>";
+			echo "Appointment: ", date('l, F d, Y g:i A', $oldDatephp), "<br>";
+			echo "Location: ", $location, "</br>";
+			if($oldAdvisorID != 0){echo "Office: ", $office, "</label>";}else{echo  "</label>";}
 		?>		
         </div>
 	    <div class="finishButton">
