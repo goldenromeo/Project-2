@@ -124,9 +124,6 @@ session_start();
 		  
 	</div>
 	</div>
-	<footer>
-	<?php include("footer.html"); ?>
-  	</footer>
 	<div class="bottom">
 		<p style='color:red'>Please note that individual appointments can only be removed from schedule.</p>
 	</div>
@@ -134,7 +131,9 @@ session_start();
 	<?php include('./workOrder/workButton.php'); ?>
 
 	</div>
-  
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>

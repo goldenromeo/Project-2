@@ -50,7 +50,7 @@ $studID = $_SESSION["studID"];
 				echo "Advisor: ", $advisorName, "<br>";
 				echo "Appointment: ", date('l, F d, Y g:i A', $datephp), "<br>";
 				echo "Location: ", $location, "</br>";
-			echo "Office: ", $office, "</label>";
+			if($AdvisorID != 0){echo "Office: ", $office, "</label>";}else{echo  "</label>";}
 			}
 			else // something is up, and there DB table needs to be fixed
 			{
