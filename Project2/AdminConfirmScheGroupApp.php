@@ -112,14 +112,15 @@ $COMMON = new Common($debug);
           <input type="submit" name="next" class="button large go" value="Return to Home">
         </form>
       </div>
+      <footer>
+	<?php include("footer.html"); ?>
+  </footer>
       <div class="bottom">
         <p><span style="color:red">!!</span> indicates that this appointment already exists. A repeat appointment was not made.</p>
       </div>
 	</div>
 	</form>
-  <footer>
-	<?php include("footer.html"); ?>
-  </footer>
+  
   </body>
   
 </html>
