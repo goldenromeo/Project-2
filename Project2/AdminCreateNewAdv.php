@@ -52,9 +52,15 @@ session_start();
 	   	</div>	 
 
 		<div class="field">
-	     		<label for="Location">Location</label> <!--get office  -->
+	     		<label for="Location">Appointment's Location</label> <!--get location where appointments will be made  -->
 	      		<input id="Location" size="20" maxlength="50" type="text" name="Location" required>
 	   	</div>	
+		<div class="field">
+	     		<label for="office">Office</label> <!--get Office location  -->
+	      		<input id="office" size="20" maxlength="50" type="text" name="office" required>
+	   	</div>	
+
+
 
 		<div class="field">
 	     		<label for="PassW">Password</label> <!--get password  -->
@@ -77,12 +83,12 @@ session_start();
 			<input type="submit" name="home" class="button large" value="Cancel">
 		</form>
 
-	</div>  
-	<footer>
+	</div>
+  </body>
+  <footer>
 	<?php include("footer.html"); ?>
   </footer>
-	</div>
-	</div>
 
-  </body>
+	</div>
+	</div>
 </html>

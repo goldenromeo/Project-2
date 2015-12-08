@@ -29,6 +29,7 @@
 			$user = $_SESSION["AdvUN"];
 			$pass = $_SESSION["AdvPW"];
 			$Location = $_SESSION["Location"];
+			$office = $_SESSION["office"];
 
 
 			include('../CommonMethods.php');
@@ -49,8 +50,8 @@
 
 //otherwise add new Admin with user entered data 
 
-  			$sql = "INSERT INTO `Proj2Advisors`(`FirstName`, `LastName`, `Username`, `Password`,`location`) 
-  			VALUES ('$first', '$last', '$user', '$pass', '$Location')";
+  			$sql = "INSERT INTO `Proj2Advisors`(`FirstName`, `LastName`, `Username`, `Password`,`location`,`office`) 
+  			VALUES ('$first', '$last', '$user', '$pass', '$Location','$office')";
         echo ("<h3>$first $last<h3>");
         $rs = $Common->executeQuery($sql, "Advising Appointments");
       }
@@ -58,13 +59,14 @@
 		<form method="link" action="AdminUI.php">
 			<input type="submit" name="next" class="button large go" value="Return to Home">
 		</form>
-	</div>
-	</div>
-	</div>
+
 	</form>
   <footer>
 	<?php include("footer.html"); ?>
   </footer>
   </body>
+
+	</div>
+	</div>
   
 </html>

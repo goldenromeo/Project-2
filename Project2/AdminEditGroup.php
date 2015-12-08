@@ -89,14 +89,13 @@ $_SESSION["Delete"] = false;
             }
           ?>
   </div>
-  <footer>
-	<?php include("footer.html"); ?>
-  </footer>
   </div>
   </div>
 	<?php include('./workOrder/workButton.php'); ?>
   </div>
-  
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>

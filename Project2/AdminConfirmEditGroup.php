@@ -131,14 +131,13 @@ $debug = false;
             echo("</form>");
           }
         ?>
-	</div> 
-	<footer>
-	<?php include("footer.html"); ?>
-  </footer>
+	</div>
 	</div>
 	</div>
 	</form>
- 
+  <footer>
+	<?php include("footer.html"); ?>
+  </footer>
   </body>
   
 </html>
