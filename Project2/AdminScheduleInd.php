@@ -59,8 +59,11 @@ session_start();
       <div class="field">
         <label for="Majors">Majors</label>
           <input type="checkbox" name="major[]" value="CMPE" checked>Computer Engineering
+          <br>
           <input type="checkbox" name="major[]" value="CMSC" checked>Computer Science
+          <br>
           <input type="checkbox" name="major[]" value="MENG" checked>Mechanical Engineering
+          <br>
           <input type="checkbox" name="major[]" value="CENG" checked>Chemical Engineering
       </div>
 
