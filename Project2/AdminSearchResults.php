@@ -225,18 +225,19 @@ $COMMON = new Common($debug);
 			<input type="submit" name="next" class="button large go" value="Return to Home">
 		</form>
 	</div>
-	</div>
-	</div>
-	<div class="bottom">
+<footer>
+	<?php include("footer.html"); ?>
+  </footer>
+<div class="bottom">
 		<p>If the Major category is followed by a blank, then it is open for all majors.</p>
 	</div>
+	</div>
+	</div>
+
+	
 	<?php include('./workOrder/workButton.php'); ?>
 
 	</div>
 	</form>
-  <footer>
-	<?php include("footer.html"); ?>
-  </footer>
-  </body>
   
-</html>
+  </body>
