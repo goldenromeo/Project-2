@@ -34,7 +34,7 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
 
   
 
-  * Website:[Website Name] (url_With_http://)
+  * email: <naess5155@gmail.com>
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
