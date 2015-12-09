@@ -30,11 +30,12 @@ session_start();
 	<input type="submit" name="next" class="button large go" value="Return to Home">
 	</form>
          
-        </div>
-	</div>
   <footer>
 	<?php include("footer.html"); ?>
   </footer>	
   </body>
+
+        </div>
+	</div>
   
 </html>

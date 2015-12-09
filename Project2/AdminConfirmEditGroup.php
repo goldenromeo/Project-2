@@ -132,12 +132,12 @@ $debug = false;
           }
         ?>
 	</div>
-	</div>
-	</div>
+
 	</form>
   <footer>
 	<?php include("footer.html"); ?>
   </footer>
   </body>
-  
+	</div>
+	</div>  
 </html>

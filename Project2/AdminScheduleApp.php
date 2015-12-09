@@ -23,7 +23,7 @@ session_start();
 	</div>
 	</form>
         </div>
-	</div>
+	
 		</form>
 		<form method="link" action="AdminUI.php">
 		<input type="submit" name="home" class="button large" value="Cancel">

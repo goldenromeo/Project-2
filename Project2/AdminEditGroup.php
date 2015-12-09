@@ -88,8 +88,7 @@ $_SESSION["Delete"] = false;
               echo("</form>");
             }
           ?>
-  </div>
-  </div>
+
   </div>
 	<?php include('./workOrder/workButton.php'); ?>
   </div>
@@ -97,5 +96,7 @@ $_SESSION["Delete"] = false;
 	<?php include("footer.html"); ?>
   </footer>
   </body>
+  </div>
+  </div>
   
 </html>

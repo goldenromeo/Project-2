@@ -57,13 +57,14 @@ $debug = false;
 	<input type="button" name="print" class="button large go" value="Print" onClick="window.print()">
 	</form>
 
-	</div>
-	</div>
 	<?php include('./workOrder/workButton.php'); ?>
 	</div>
   <footer>
 	<?php include("footer.html"); ?>
   </footer>
+	</div>
+	</div>
+
   </body>
   
 </html>

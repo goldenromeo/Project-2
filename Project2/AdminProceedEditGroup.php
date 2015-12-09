@@ -56,12 +56,12 @@ session_start();
             echo("</div>");
           ?>
 		  </div>
-  </div>
-  </div>
+
   </form>
   <footer>
 	<?php include("footer.html"); ?>
   </footer>
   </body>
-  
+  </div>
+  </div>  
 </html>

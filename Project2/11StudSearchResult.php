@@ -3,7 +3,6 @@ session_start();
 //ini_set('display_errors','1');
 //ini_set('display_startup_errors','1');
 //error_reporting (E_ALL);
-
 $debug = false;
 include('../CommonMethods.php');
 $COMMON = new Common($debug);
@@ -42,7 +41,6 @@ $COMMON = new Common($debug);
 				else{
 					$i = 0;
 					echo "Time: ";
-
 					foreach($times as $t){
 						echo ++$i, ") ", date('g:i A', strtotime($t)), " ";
 					}
@@ -80,12 +78,9 @@ $COMMON = new Common($debug);
 							}
 							else{ $advName = getAdvisorName($row); }
 							
-
-
 							$found = 	"<tr><td>". date('l, F d, Y g:i A', strtotime($row[1]))."</td>".
 									"<td>". $advName."</td>". 
 									"<td>". $row[3]. "</td></tr>".
-
 							array_push($results, $found);
 						}
 					}
@@ -103,7 +98,6 @@ $COMMON = new Common($debug);
 										$advName = "Group";
 									}
 									else{ $advName = getAdvisorName($row); }
-
 							$found = 	"<tr><td>". date('l, F d, Y g:i A', strtotime($row[1]))."</td>".
 									"<td>". $advName."</td>". 
 									"<td>". $row[3]. "</td></tr>".
@@ -123,7 +117,6 @@ $COMMON = new Common($debug);
 										$advName = "Group";
 									}
 									else{ $advName = getAdvisorName($row); }
-
 							$found = 	"<tr><td>". date('l, F d, Y g:i A', strtotime($row[1]))."</td>".
 									"<td>". $advName."</td>". 
 									"<td>". $row[3]. "</td></tr>".
@@ -139,9 +132,7 @@ $COMMON = new Common($debug);
 				else{
 					echo("<table border='1'><th colspan='3'>Appointments Available</th>\n");
 					echo("<tr><td width='60px'>Time:</td><td>Advisor</td><td>Major</td></tr>\n");
-
 					foreach($results as $r){ echo($r."\n"); }
-
 					echo("</table>");
 				}
 			?>
@@ -163,8 +154,6 @@ $COMMON = new Common($debug);
 </html>
 
 <?php
-
-
 // More code reduction by Lupoli - 9/1/15
 // just getting the advisor's name
 function getAdvisorName($row)
@@ -175,5 +164,4 @@ function getAdvisorName($row)
 	$row2 = mysql_fetch_row($rs2);
 	return $row2[1] ." ". $row2[2];
 }
-
 ?>
