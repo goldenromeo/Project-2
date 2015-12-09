@@ -25,7 +25,7 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
 
   
   * LinkedIn:[Morgan C] (https://www.linkedin.com/in/morgan-campbell-9a2282ba) 
-  * Major Computer Science Bs. & Gender and Women's Studies Ba.
+  * Major: Computer Science Bs. & Gender and Women's Studies Ba.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2017
 
@@ -35,6 +35,6 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
   
 
   * email: <naess5155@gmail.com>
-  * Major Computer Science Bs.
+  * Major: Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
