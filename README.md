@@ -5,7 +5,7 @@ UMBC CMSC 331 Project 2
   
 ##Rommel Trejo
   
-  * Website: rommeltrejo.com
+  * Website:[RommelTrejo.com] (rommeltrejo.com)
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
@@ -13,7 +13,7 @@ UMBC CMSC 331 Project 2
 ##Morgan Campbell
 
   
-  * Website: rommeltrejo.com
+  * Website:[RommelTrejo.com] (rommeltrejo.com)
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
@@ -22,7 +22,7 @@ UMBC CMSC 331 Project 2
 ##Damon Harty
 
   
-  * Website: rommeltrejo.com
+  * Website:[RommelTrejo.com] (rommeltrejo.com)
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
