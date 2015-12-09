@@ -5,7 +5,7 @@ UMBC CMSC 331 Project 2
   
 ##Rommel Trejo
   
-  * Website:[RommelTrejo.com] (rommeltrejo.com)
+  * Website:[RommelTrejo.com] (http://rommeltrejo.com/)
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
