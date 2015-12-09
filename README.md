@@ -24,7 +24,7 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
 ##Morgan Campbell
 
   
-  * Website:[Website Name] (url_With_http://)
+  * LinkedIn:[Morgan C] (https://www.linkedin.com/in/morgan-campbell-9a2282ba) 
   * Major Computer Science Bs.
   * School: University of Maryland Baltimore County
   * Grad date: Spring 2016
