@@ -1,7 +1,7 @@
 # Project-2
 UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.umbc.edu/~rommel1/CMSC331/Project1/) and adds the following:
 
-  * Two more data points were added to the DB, where the advisors' offices are located, and where they will meet with their student. When a student signs up for an appointment, this is also shown.
+  * two more data points were added to the DB, where the advisors' offices are located, and where they will meet with their student. When a student signs up for an appointment, this is also shown.
 
 
 
@@ -9,7 +9,7 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
 
 
 
-* Code reusability was improved by the extraction and encapsulation of server requests and commonly used parts such as a page's footer and CSS.
+* Code reusablity was improved by the extraction and encapsulation of server requests and commonly used parts such as a page's footer and CSS.
 
 
 #contact
