@@ -14,20 +14,21 @@ session_start();
         <div class="top">
 	    <div class="statusMessage">
 	    <?php
+			$status = $_SESSION["status"];
 			$_SESSION["resch"] = false;			
-			if($_SESSION["status"] == "complete"){
+			if($status == "complete"){
 				echo "You have completed your sign-up for an advising appointment.";
 			}
-			elseif($_SESSION["status"] == "none"){
+			elseif($status == "none"){
 				echo "You did not sign up for an advising appointment.";
 			}
-			if($_SESSION["status"] == "cancel"){
+			if($status == "cancel"){
 				echo "You have cancelled your advising appointment.";
 			}
-			if($_SESSION["status"] == "resch"){
+			if($status == "resch"){
 				echo "You have changed your advising appointment.";
 			}
-			if($_SESSION["status"] == "keep"){
+			if($status == "keep"){
 				echo "No changes have been made to your advising appointment.";
 			}
 		?>

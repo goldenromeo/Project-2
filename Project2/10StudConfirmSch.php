@@ -19,12 +19,15 @@ $_SESSION["appTime"] = $_POST["appTime"]; // radio button selection from previou
 			$debug = false;
 			include('../CommonMethods.php');
 			$COMMON = new Common($debug);
-			
-			$firstn = $_SESSION["firstN"];
-			$lastn = $_SESSION["lastN"];
-			$studid = $_SESSION["studID"];
-			$major = $_SESSION["major"];
-			$email = $_SESSION["email"];
+			$sql = "select * from Proj2Students where `StudentID` = '$studid'";
+			$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
+			$row = mysql_fetch_row($rs);
+
+			$firstn = $row[1];
+			$lastn = $row[2];
+			$studid = $row[3];
+			$major = $row[4];
+			$email = $row[5];
 			
 			if($_SESSION["resch"] == true){
 				$sql = "select * from Proj2Appointments where `EnrolledID` like '%$studid%'";

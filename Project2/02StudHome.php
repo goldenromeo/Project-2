@@ -13,9 +13,6 @@ session_start();
       <div id="form">
         <div class="top">
 		<h2>Hello 
-		<?php
-			echo $_SESSION["firstN"];
-		?>
         </h2>
 	    <div class="selections">
 		<form action="StudProcessHome.php" method="post" name="Home">
@@ -23,20 +20,17 @@ session_start();
 			$debug = false;
 			include('../CommonMethods.php');
 			$COMMON = new Common($debug);
-			
-			$_SESSION["studExist"] = false;
 			$adminCancel = false;
 			$noApp = false;
 			$studid = $_SESSION["studID"];
-
+			$studExist= false;
 			$sql = "select * from Proj2Students where `StudentID` = '$studid'";
 			$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
-			$row = mysql_fetch_row($rs);
-					
-				
+			$row = mysql_fetch_row($rs);		
 			//checks if student exist
 			if (!empty($row)){
-				$_SESSION["studExist"] = true;
+				$studExist = true;
+				echo "<h2> $row[1] $row[2]</h2>";
 				if($row[6] == 'C'){
 					$adminCancel = true; //checks if an admin cancelled an apointment
 
@@ -46,7 +40,7 @@ session_start();
 				}
 			}
 
-			if ($_SESSION["studExist"] == false || $adminCancel == true || $noApp == true){
+			if ($studExist == false || $adminCancel == true || $noApp == true){
 				
 				//checks if if an admin cancelled an apointment and prints an error	
 				if($adminCancel == true){

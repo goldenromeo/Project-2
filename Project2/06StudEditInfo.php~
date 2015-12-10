@@ -5,18 +5,15 @@ $debug = false;
 include('../CommonMethods.php');
 $COMMON = new Common($debug);
 
-$sql = "select * from Proj2Students";
-$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
-
-while($row = mysql_fetch_row($rs)){
-	if($row[3] == $_SESSION["studID"]){
-		
-		$_SESSION["firstN"] = $row[1];
-		$_SESSION["lastN"] = $row[2];
-		$_SESSION["email"] = $row[4];
-		$_SESSION["major"] = $row[5];
-	}
-}
+$sql2 = "select * from Proj2Students where `id` = '$_SESSION["studID"]'";
+	$rs2 = $COMMON->executeQuery($sql2, $_SERVER["SCRIPT_NAME"]);
+	$row2 = mysql_fetch_row($rs2);
+	$advisorName = $row[1] . " " . $row2[2];
+	$firstn = $row[1];
+	$lastn = $row[2];
+	$studid = $row[3];
+	$major = $row[4];
+	$email = $row[5];
 
 ?>
 <html lang="en">

@@ -8,13 +8,15 @@ if($_POST["finish"] == 'Cancel'){
 	$_SESSION["status"] = "none";
 }
 else{
-	$firstn = $_SESSION["firstN"];
-	$lastn = $_SESSION["lastN"];
 	$studid = $_SESSION["studID"];
-	$major = $_SESSION["major"];
-	$email = $_SESSION["email"];
+	$sql2 = "select * from Proj2Students where `id` = 'studid'";
+	$rs2 = $COMMON->executeQuery($sql2, $_SERVER["SCRIPT_NAME"]);
+	$row2 = mysql_fetch_row($rs2);
+	$firstn = $row2[1];
+	$lastn = $row2[2];
+	$major = $row2[4];
+	$email = $row2[5];
 	$advisor = $_SESSION["advisor"];
-
 
 	// if debug mode is on. fixed this
 	if(debug==1) { echo("Advisor -> $advisor<br>\n"); }
@@ -22,7 +24,7 @@ else{
 
 
 	$apptime = $_SESSION["appTime"];
-	if($_SESSION["studExist"] == false){
+	if(empty($row2)){
 		$sql = "insert into Proj2Students (`FirstName`,`LastName`,`StudentID`,`Email`,`Major`) values ('$firstn','$lastn','$studid','$email','$major')";
 		$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
 	}
@@ -55,7 +57,7 @@ else{
 			$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
 		}
 		else // student scheduled for an individual session
-		{
+		{	;
 			$sql = "update `Proj2Appointments` set `EnrolledNum` = EnrolledNum+1, `EnrolledID` = '$studid' where `AdvisorID` = '$advisor' and `Time` = '$apptime'";
 			$rs = $COMMON->executeQuery($sql, $_SERVER["SCRIPT_NAME"]);
 		}

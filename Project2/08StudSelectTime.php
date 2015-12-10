@@ -44,7 +44,7 @@ $advisorName = $row[1]." ".$row[2];
 
 			$curtime = time();   //gets the current time
 							
-			if ($_SESSION["advisor"] != "Group")  // for individual conferences only
+			if ($localAdvisor != "Group")  // for individual conferences only
 			{ 
 				$sql = "select * from Proj2Appointments where `EnrolledNum` = 0 
 					and (`Major` like '%$localMaj%' or `Major` = '') and `Time` > '".date('Y-m-d H:i:s')."' and `AdvisorID` = ".$_POST['advisor']." 
