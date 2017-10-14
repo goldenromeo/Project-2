@@ -19,7 +19,7 @@ UMBC CMSC 331 Project 2: This Project builds on [Project 1] (http://userpages.um
   * Website:[RommelTrejo.com] (http://rommeltrejo.com/)
   * Major: Computer Science Bs.
   * School: University of Maryland Baltimore County
-  * Grad date: Spring 2016
+  * Grad date: Spring 2017
 
 ##Morgan Campbell
 
